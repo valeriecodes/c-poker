@@ -1,12 +1,7 @@
-Valerie Woolard
-Homework 4
-C Programming
 
-In order the run the game, run "make" to compile, and then "./game" to run the executeable. There will be text prompts to guide you through the game. In a betting round, betting less than the call amount or entering -1 will result in a fold. Entering 0 ("checking") after a bet has been placed in a round is an illegal move and will result in problems with the player's bet tally.
+In order the run the game, run "make" to compile, and then "./game" to run the executable. There will be text prompts to guide you through the game. In a betting round, betting less than the call amount or entering -1 will result in a fold. Entering 0 ("checking") after a bet has been placed in a round is an illegal move and will result in problems with the player's bet tally.
 
 All functions are described in header files and commented in source code.
-
-The scoring function is essentially the one described in the paper posted to the Dropbox, with slight modifications. It is 13 * class +  oridinal rank. However, the classes are numbered from 0 to 9 instead of 1 to 10, so the maximum score (royal flush) is 130. The ranks (Deuce through Ace) are numbered as 1 to 13. In Ace-low straights, an Ace can take on a rank of zero, but zero will never be the ordinal rank of a hand.
 
 Source files are organized as follows:
 Card, Deck and Hand data structs and functions related to them are in the cards.c file.
